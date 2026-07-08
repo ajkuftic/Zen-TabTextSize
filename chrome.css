@@ -316,4 +316,27 @@
             font-size: 22px !important;
         }
     }
+
+    /* Selected tab background color + opacity */
+    .tabbrowser-tab .tab-background:is([selected], [multiselected]) {
+        background-color: var(--uc-tabtextsize-selectedtabcolor, unset);
+        opacity: var(--uc-tabtextsize-tabopacity, 1);
+    }
+
+    /* Disable the selected/active tab highlight entirely */
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-hideactivetabhighlight="true"]) {
+        .tabbrowser-tab .tab-background:is([selected], [multiselected]) {
+            background-color: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+            opacity: 1 !important;
+        }
+    }
+
+    /* Disable the hover highlight on inactive tabs */
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-hideinactivetabhighlight="true"]) {
+        .tabbrowser-tab:not([selected]):not([multiselected]) .tab-background:hover {
+            background-color: transparent !important;
+        }
+    }
 }

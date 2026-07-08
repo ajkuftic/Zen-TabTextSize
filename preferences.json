@@ -230,5 +230,29 @@
                 "value": "22"
             }
         ]
+    },
+    {
+        "property": "uc.tabtextsize.hideactivetabhighlight",
+        "label": "Disable Selected Tab Highlight",
+        "type": "checkbox",
+        "defaultValue": false
+    },
+    {
+        "property": "uc.tabtextsize.hideinactivetabhighlight",
+        "label": "Disable Inactive Tab Hover Highlight",
+        "type": "checkbox",
+        "defaultValue": false
+    },
+    {
+        "property": "uc.tabtextsize.selectedtabcolor",
+        "label": "Selected Tab Background Color (e.g. #ff6b6b, leave blank for default): ",
+        "type": "string",
+        "defaultValue": ""
+    },
+    {
+        "property": "uc.tabtextsize.tabopacity",
+        "label": "Selected Tab Background Opacity (0.0 - 1.0): ",
+        "type": "string",
+        "defaultValue": "1"
     }
 ]
