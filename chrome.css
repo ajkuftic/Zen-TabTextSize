@@ -1,7 +1,19 @@
 @-moz-document url-prefix("chrome:") {
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-textsize="7"]) {
+        .tab-text.tab-label {
+            font-size: 7px;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-textsize="8"]) {
         .tab-text.tab-label {
             font-size: 8px;
+        }
+    }
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-textsize="9"]) {
+        .tab-text.tab-label {
+            font-size: 9px;
         }
     }
 
@@ -11,9 +23,21 @@
         }
     }
 
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-textsize="11"]) {
+        .tab-text.tab-label {
+            font-size: 11px;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-textsize="default"]) {
         .tab-text.tab-label {
             font-size: 12px;
+        }
+    }
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-textsize="13"]) {
+        .tab-text.tab-label {
+            font-size: 13px;
         }
     }
 
@@ -23,9 +47,21 @@
         }
     }
 
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-textsize="15"]) {
+        .tab-text.tab-label {
+            font-size: 15px;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-textsize="16"]) {
         .tab-text.tab-label {
             font-size: 16px;
+        }
+    }
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-textsize="17"]) {
+        .tab-text.tab-label {
+            font-size: 17px;
         }
     }
 
@@ -35,9 +71,21 @@
         }
     }
 
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-textsize="19"]) {
+        .tab-text.tab-label {
+            font-size: 19px;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-textsize="20"]) {
         .tab-text.tab-label {
             font-size: 20px;
+        }
+    }
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-textsize="21"]) {
+        .tab-text.tab-label {
+            font-size: 21px;
         }
     }
 
@@ -47,17 +95,36 @@
         }
     }
 
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="5"]) {
+        .zen-current-workspace-indicator {
+            font-size: 5px !important;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="6"]) {
         .zen-current-workspace-indicator {
             font-size: 6px !important;
         }
     }
-    
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="7"]) {
+        .zen-current-workspace-indicator {
+            font-size: 7px !important;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="8"]) {
         .zen-current-workspace-indicator {
             font-size: 8px !important;
         }
-    }  
+    }
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="9"]) {
+        .zen-current-workspace-indicator {
+            font-size: 9px !important;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="10"]) {
         .zen-current-workspace-indicator {
             font-size: 10px !important;
@@ -70,9 +137,33 @@
         }
     }
 
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="11"]) {
+        .zen-current-workspace-indicator {
+            font-size: 11px !important;
+        }
+    }
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="12"]) {
+        .zen-current-workspace-indicator {
+            font-size: 12px !important;
+        }
+    }
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="13"]) {
+        .zen-current-workspace-indicator {
+            font-size: 13px !important;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="14"]) {
         .zen-current-workspace-indicator {
             font-size: 14px !important;
+        }
+    }
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="15"]) {
+        .zen-current-workspace-indicator {
+            font-size: 15px !important;
         }
     }
 
@@ -82,9 +173,21 @@
         }
     }
 
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="17"]) {
+        .zen-current-workspace-indicator {
+            font-size: 17px !important;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="18"]) {
         .zen-current-workspace-indicator {
             font-size: 18px !important;
+        }
+    }
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="19"]) {
+        .zen-current-workspace-indicator {
+            font-size: 19px !important;
         }
     }
 
@@ -94,9 +197,21 @@
         }
     }
 
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="21"]) {
+        .zen-current-workspace-indicator {
+            font-size: 21px !important;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-workspaceheader="22"]) {
         .zen-current-workspace-indicator {
             font-size: 22px !important;
+        }
+    }
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-tabgroup="5"]) {
+        .tab-group-label-container {
+            font-size: 5px !important;
         }
     }
 
@@ -105,15 +220,34 @@
             font-size: 6px !important;
         }
     }
-    
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-tabgroup="7"]) {
+        .tab-group-label-container {
+            font-size: 7px !important;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-tabgroup="8"]) {
         .tab-group-label-container {
             font-size: 8px !important;
         }
-    }  
+    }
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-tabgroup="9"]) {
+        .tab-group-label-container {
+            font-size: 9px !important;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-tabgroup="10"]) {
         .tab-group-label-container {
             font-size: 10px !important;
+        }
+    }
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-tabgroup="11"]) {
+        .tab-group-label-container {
+            font-size: 11px !important;
         }
     }
 
@@ -123,9 +257,21 @@
         }
     }
 
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-tabgroup="13"]) {
+        .tab-group-label-container {
+            font-size: 13px !important;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-tabgroup="14"]) {
         .tab-group-label-container {
             font-size: 14px !important;
+        }
+    }
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-tabgroup="15"]) {
+        .tab-group-label-container {
+            font-size: 15px !important;
         }
     }
 
@@ -135,15 +281,33 @@
         }
     }
 
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-tabgroup="17"]) {
+        .tab-group-label-container {
+            font-size: 17px !important;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-tabgroup="18"]) {
         .tab-group-label-container {
             font-size: 18px !important;
         }
     }
 
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-tabgroup="19"]) {
+        .tab-group-label-container {
+            font-size: 19px !important;
+        }
+    }
+
     :root:has(#theme-Tab-Text-Size[uc-tabtextsize-tabgroup="20"]) {
         .tab-group-label-container {
             font-size: 20px !important;
+        }
+    }
+
+    :root:has(#theme-Tab-Text-Size[uc-tabtextsize-tabgroup="21"]) {
+        .tab-group-label-container {
+            font-size: 21px !important;
         }
     }
 
